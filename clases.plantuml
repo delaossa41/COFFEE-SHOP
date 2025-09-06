@@ -1,0 +1,17 @@
+@startuml clasescoffeeshop
+
+class Usuario {
+    - id: int
+    - nombre: string
+    - correoCorporativo: string
+    + IniciarSesion(): boolean
+}
+
+class Estudiante {
+    + realizarPedido(menu: Menu, items: List<Item>, metodoPago: String): Pedido
+}
+
+
+class AdministradorCafeteria{}
+
+@enduml

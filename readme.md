@@ -1,4 +1,4 @@
-# coffeShop
+# CoffeShop
 Sistema de pedidos de la cafeteria
 
 # Listas de Diagramas
