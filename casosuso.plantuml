@@ -1,2 +1,16 @@
 @startuml casoscoffeeshop
+left to right direction
+actor "estudiante" as est
+actor "administrador cafeteria" as admin
+
+rectangle "sistemas pedidos coffeeshop" {
+  usecase "iniciar sesion" as UC1
+  usecase "realizar pedido" as UC2
+  
+}
+
+est --> UC1
+est --> UC2
+admin --> UC1
+admin --> UC2
 @enduml 
